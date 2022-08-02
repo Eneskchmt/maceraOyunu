@@ -11,6 +11,7 @@ public class Game {
         Player player = new Player("Mustafa");
         System.out.println("Sayın " + player.getName() + " bu karanlık ve sisli odaya hoşgeldiniz !! Burada yaşanılan her şey gerçek ! ");
         System.out.println("Lütfen bir karakter seçiniz ! ");
+        System.out.println("***************************************************************");
         player.selectChar();
 
         Location location = null;
